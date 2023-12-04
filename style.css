@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    font-family: sans-serif !important;
+}
+
+body{
+    background-color: black !important;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.yeni{
+    object-fit: scale-down;
+}
+
+.hero{
+    width: 170px;
+    height: 40px;
+}
+.bnm{
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8) 100%),url(üst.jpeg);
+    width: 100%;
+    height: 70vh;
+    border-bottom-style: solid;
+    border-width: 10px;
+    border-color: rgb(71, 71, 71);
+    
+ }
+
+.btnclr{
+    background-color: red;
+    border-radius: 6px;
+   }
+
+  .form-control::placeholder {
+    color: white !important;
+  }
+
+
+.yazı{
+font-size: 50px;
+font-weight: 800;
+}
+.yazı1{
+    font-size: 25px;
+    font-weight: 400;
+}
+.yazı2{
+font-size: 20px;
+}
+
+.btnclr2{
+    background-color: red !important;
+    border-radius: 6px;
+    height: 55px !important;
+    width: 200px;
+    }
+.inpt{
+    height: 55px !important;
+    width: 400px !important;
+    background-color: rgba(32, 32, 32, 0.452) !important;
+}
+
+.içerik{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15% 5%;
+
+}
+
+.borderr{
+    border-bottom-style: solid;
+    border-width: 10px;
+    border-color: rgb(71, 71, 71);
+}
+
+.accordion-benim{
+    position: relative;
+    top: 50%;
+    left: 13%;
+
+}
+.bnm-akar{
+    background-color: rgb(53, 53, 53) !important;
+    border: none ;
+    
+}
+
+.brd{
+    border-bottom-style: solid;
+    border-width: 10px;
+    border-color: rgb(71, 71, 71);
+}
+
+.accordion-button::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z'/%3E%3C/svg%3E") !important;
+    
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E") !important;
+    
+}
+
+
+
+@media screen  and (max-width: 600px) {
+    .yazı1{
+        font-size: 13px !important;
+    }
+    .yazı{
+        font-size: 15px !important;
+    }
+    .yazı2{
+        font-size: 15px !important;
+    }
+    .inpt{
+        width: 200px!important;
+    }
+}
